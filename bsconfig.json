@@ -1,0 +1,15 @@
+{
+  "name": "cloudflare",
+  "version": "0.1.0",
+  "package-specs": [
+    {
+      "module": "commonjs",
+      "in-source": true
+    }
+  ],
+  "sources": [{
+    "dir" : "src",
+    "subdirs" : true
+    }],
+  "bs-dependencies": []
+}

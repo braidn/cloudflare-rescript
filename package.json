@@ -1,0 +1,20 @@
+{
+  "name": "cloudflare",
+  "version": "0.1.0",
+  "main": "src/CFDemo.js",
+  "scripts": {
+    "build": "rescript build",
+    "build:clean": "rescript clean",
+    "build:watch": "rescript build -w",
+    "test": "onchange --initial '{tests,src}/*.js' -- pta 'tests/*.test.js'"
+  },
+  "keywords": [
+    "ReScript"
+  ],
+  "author": "",
+  "license": "MIT",
+  "type": "module",
+  "devDependencies": {
+    "rescript": "^9.1.4"
+  }
+}
