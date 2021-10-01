@@ -33,5 +33,6 @@ bin/
 pkg/
 wasm-pack.log
 worker/
+src/*.js
 .cargo-ok
 wrangler.toml
